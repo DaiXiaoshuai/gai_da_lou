@@ -1,14 +1,18 @@
 {
   "desc1": "以下两个属性为腾讯云ocr的调用id与key，可在https://console.cloud.tencent.com/ocr/general免费申请后前往https://cloud.tencent.com/product/api创建，普通用户拥有每月10000次免费调用的权限",
-  "SecretId": "AKIDYt62g3JF6h13oIlO3b1JTUM5br25o52q",
-  "SecretKey": "saAbxBnGbncEl9Oo19D90nXByiNvNclz",
+  "SecretId": "请自行申请后填入",
+  "SecretKey": "请自行申请后填入",
   "desc2": "以下8个属性为小米Mix 2s 屏幕尺寸下的坐标点，需要自行根据手机屏幕尺寸进行适配",
+
   "ModuleX":860,
   "ModuleY": 1670,
+
   "TaskIconX": 912,
   "TaskIconY": 1717,
+
   "OcrCutStartX": 760,
   "OcrCutStartY": 855,
+
   "OcrCutEndX": 1000,
   "OcrCutEndY": 1900
 }
