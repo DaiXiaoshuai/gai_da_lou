@@ -102,5 +102,5 @@ while hasTask(result):
     result = ocr.identify(button_area)
     if result.TextDetections[0].DetectedText != "去分享":
         init_to_task_window()
-        button_area = get_screen_shot()[cut_position_y:params['OcrCutEndY'], cut_position_x:cut_position_x:params['OcrCutEndX']]
+        button_area = get_screen_shot()[cut_position_y:params['OcrCutEndY'], cut_position_x:params['OcrCutEndX']]
         result = ocr.identify(button_area)
