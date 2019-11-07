@@ -77,7 +77,7 @@ def hasTask(resp):
     return False
 
 
-f = open('config.json', 'r')
+f = open('config.json', 'r', encoding='utf-8')
 text = f.read()
 f.close()
 params = json.loads(text)

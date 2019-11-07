@@ -11,7 +11,7 @@ from tencentcloud.ocr.v20181119 import ocr_client, models
 
 class TecentOcr:
     def __init__(self):
-        f = open('config.json', 'r')
+        f = open('config.json', 'r', encoding='utf-8')
         text = f.read()
         f.close()
         params = json.loads(text)
